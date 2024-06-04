@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  min-height: 200vh;
+  background-image: url('C:\Users\jahna\Downloads\Movie Background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-library {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url('C:\Users\jahna\Downloads\MovieLibrary Background.jpg'); /* Add background image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.search-bar input {
+  padding: 8px;
+  margin-right: 10px;
+}
+.search-bar button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.search-input {
+  margin-right: 10px;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.movie-image {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Automatically adjust height based on width */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+
+
+.movie {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 30px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: left; /* Add background color to make text readable */
+}
+.movie-details strong {
+  font-weight: bold;
+}
+
+.movie-image {
+  width: 200px; /* Adjust the width of the movie image */
+  height: auto; /* Automatically adjust height based on width */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.like-icon {
+  display:block;
+  margin-top: 15px;
+  font-size: 24px;
+   
+}
+
+
+
+
